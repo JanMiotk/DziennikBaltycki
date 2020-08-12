@@ -1,0 +1,226 @@
+{
+	"id": "be6cd36c-e89e-4c0a-8f19-63f06a342dab",
+	"name": "Test",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"8692cc28-d917-4d51-a13f-326dcc2b25fb",
+		"aca04b05-2461-47b9-a5bd-6e493b24e48b",
+		"e20cc68e-e2e0-4603-8596-432cce939b6e",
+		"a3d9e6da-a04a-4ba4-88eb-d3d5e1634887",
+		"822ca38a-bc9b-40b6-b974-0e58bea66502",
+		"7d6fbea4-1a66-4b20-a3ce-7e6b8426b70e",
+		"88b9321d-ddd7-497f-b64f-0ae73743925e",
+		"c1288622-3770-4b23-87fd-73f33aa56a9f"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "7d6fbea4-1a66-4b20-a3ce-7e6b8426b70e",
+			"name": "http://localhost:6300/entries/UpdateEntry?id=2",
+			"url": "http://localhost:6300/entries/UpdateEntry?id=5",
+			"description": "",
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "5",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\t\"ID\": 21,\n        \"offerDetails\": {\n            \"id\": 21,\n            \"url\": \"Test\",\n            \"creationDateTime\": \"2020-05-12T11:49:51.3528323\",\n            \"lastUpdateDateTime\": \"2020-05-12T11:49:51.3528382\",\n            \"offerKind\": 0,\n            \"sellerContact\": {\n                \"id\": 40,\n                \"email\": null,\n                \"telephone\": \"+48 666 346 994\",\n                \"name\": \"Aleksandra Szczepan\"\n            },\n            \"isStillValid\": true\n        },\n        \"propertyPrice\": {\n            \"id\": 38,\n            \"totalGrossPrice\": 1100.00,\n            \"pricePerMeter\": 0.00,\n            \"residentalRent\": 0.00\n        },\n        \"propertyDetails\": {\n            \"id\": 25,\n            \"area\": 38.66,\n            \"numberOfRooms\": 1,\n            \"floorNumber\": 1,\n            \"yearOfConstruction\": 0\n        },\n        \"propertyAddress\": {\n            \"id\": 36,\n            \"city\": 695,\n            \"district\": \"starogardzki\",\n            \"streetName\": \"Kościuszki 27\",\n            \"detailedAddress\": \"Brak danych\"\n        },\n        \"propertyFeatures\": {\n            \"id\": 30,\n            \"gardenArea\": null,\n            \"balconies\": 0,\n            \"basementArea\": null,\n            \"outdoorParkingPlaces\": 0,\n            \"indoorParkingPlaces\": 0\n        },\n        \"RawDescription\": \"test2\"\n\t\t\n\t\t\n    }",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "822ca38a-bc9b-40b6-b974-0e58bea66502",
+			"name": "http://localhost:6300/entries/GetEntries?PageLimit=10&PageId=3",
+			"url": "http://localhost:6300/entries/GetEntries?PageLimit=40&PageId=3",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "PageLimit",
+					"value": "40",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				},
+				{
+					"key": "PageId",
+					"value": "3",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "8692cc28-d917-4d51-a13f-326dcc2b25fb",
+			"name": "http://localhost:6300/entries/GetInfo",
+			"url": "http://localhost:6300/entries/GetInfo",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "88b9321d-ddd7-497f-b64f-0ae73743925e",
+			"name": "http://localhost:6300/entries/GetEntries",
+			"url": "http://localhost:6300/entries/GetEntries",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "a3d9e6da-a04a-4ba4-88eb-d3d5e1634887",
+			"name": "http://localhost:6300/entries/GetEntries?X-Request-ID=15",
+			"url": "http://localhost:6300/entries/GetEntries?X-Request-ID=15",
+			"description": "",
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "X-Request-ID",
+					"value": "15",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "X-Request-ID",
+					"value": "15",
+					"equals": true,
+					"description": null,
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "",
+			"headers": "X-Request-ID: 15\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "aca04b05-2461-47b9-a5bd-6e493b24e48b",
+			"name": "http://localhost:6300/entries/6",
+			"url": "http://localhost:6300/entries/6",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "c1288622-3770-4b23-87fd-73f33aa56a9f",
+			"name": "http://localhost:6300/offers/BestOffers",
+			"url": "http://localhost:6300/offers/GetBestOffers",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "e20cc68e-e2e0-4603-8596-432cce939b6e",
+			"name": "http://localhost:6300/page",
+			"url": "http://localhost:6300/page/LoadPage",
+			"description": null,
+			"data": [],
+			"dataOptions": {
+				"raw": {}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": null,
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{ \"pageNumber\" : 4}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}
