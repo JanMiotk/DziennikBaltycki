@@ -2,7 +2,7 @@
 
 It is necessary to instal all requirement libraries 
 
-You should create your own database from Microsoft SQL database provider, and change appsettings.json
+You should create your own database from SQL Server and change appsettings.json
 
 "ConnectionStrings": {
     "Sql": "Data Source =.\\SQLEXPRESS; Initial Catalog = catalog; Integrated Security = True"
@@ -11,3 +11,5 @@ You should create your own database from Microsoft SQL database provider, and ch
     "ClientID": "client",
     "ClientSecret": "secret"
   }
+
+I added samples postman request in PostmanRequestCollection
