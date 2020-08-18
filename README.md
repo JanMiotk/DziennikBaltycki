@@ -23,15 +23,15 @@ I added sample postman requests into PostmanRequestCollection for simple testing
 
 ## Short Presentation
 
-* Respons include the best offers prices per meter from 9 cities
+* Response include the best offers prices per meter from 9 cities
 
 ![alt text](https://media.giphy.com/media/Y1pIb3UDxf9N6XpnTW/giphy.gif)
 
-* Respons return all entries from database
+* Request return all entries from database
 
 ![alt text](https://media.giphy.com/media/mEyvZyuZrZCMX5iqLk/giphy.gif)
 
-* Response returns limited records 
+* Requset returns limited records 
 
 ![alt text](https://media.giphy.com/media/jSWUKL7vRlJX8DCQZ1/giphy.gif)
 
@@ -47,7 +47,7 @@ I added sample postman requests into PostmanRequestCollection for simple testing
 
 ![alt text](https://media.giphy.com/media/mEyvZyuZrZCMX5iqLk/giphy.gif)
 
-* After this request log is added to database with current time 
+* After this request log is added to database with current time and content 
 
 ![alt text](https://media.giphy.com/media/f4DY7UNr5Xb3LkWOQ8/giphy.gif)
 
