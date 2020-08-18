@@ -41,18 +41,15 @@ I added sample postman requests into PostmanRequestCollection for simple testing
 
 * Request return single entry
 
-![alt text](https://media.giphy.com/media/KG5KcoWbUKM78WD53f/giphy.gif)
+![alt text](https://media.giphy.com/media/da6MmVryQMtuDJRzFN/giphy.gif)
 
 * Request try update record in database but User need permission to do it by google authentication so response contain google authentication page
 
-![alt text](https://media.giphy.com/media/mEyvZyuZrZCMX5iqLk/giphy.gif)
+![alt text](https://media.giphy.com/media/cM22NDe3CDJSQhm3jv/giphy.gif)
 
 * After this request log is added to database with current time and content 
 
 ![alt text](https://media.giphy.com/media/f4DY7UNr5Xb3LkWOQ8/giphy.gif)
-
-
-
 
 
 
