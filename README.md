@@ -1,9 +1,13 @@
 # DziennikBaltycki
 
+## Need to
+
 It is necessary to instal all requirement libraries 
 
-You should create your own database from SQL Server and change appsettings.json
+Download a couple of files using Dzieniki Bałtycki
 
+You should create your own database from SQL Server and change appsettings.json
+```
 "ConnectionStrings": {
     "Sql": "Data Source =.\\SQLEXPRESS; Initial Catalog = catalog; Integrated Security = True"
   },
@@ -11,5 +15,44 @@ You should create your own database from SQL Server and change appsettings.json
     "ClientID": "client",
     "ClientSecret": "secret"
   }
+  ```
 
-I added samples postman request in PostmanRequestCollection
+## Postman test collection
+
+I added sample postman requests into PostmanRequestCollection for simple testing
+
+## Short Presentation
+
+* Respons include the best offers prices per meter from 9 cities
+
+![alt text](https://media.giphy.com/media/Y1pIb3UDxf9N6XpnTW/giphy.gif)
+
+* Respons return all entries from database
+
+![alt text](https://media.giphy.com/media/mEyvZyuZrZCMX5iqLk/giphy.gif)
+
+* Response returns limited records 
+
+![alt text](https://media.giphy.com/media/jSWUKL7vRlJX8DCQZ1/giphy.gif)
+
+* Request load page into database
+
+![alt text](https://media.giphy.com/media/KG5KcoWbUKM78WD53f/giphy.gif)
+
+* Request return single entry
+
+![alt text](https://media.giphy.com/media/KG5KcoWbUKM78WD53f/giphy.gif)
+
+* Request try update record in database but User need permission to do it by google authentication so response contain google authentication page
+
+![alt text](https://media.giphy.com/media/mEyvZyuZrZCMX5iqLk/giphy.gif)
+
+* After this request log is added to database with current time 
+
+![alt text](https://media.giphy.com/media/f4DY7UNr5Xb3LkWOQ8/giphy.gif)
+
+
+
+
+
+
