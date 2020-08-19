@@ -9,8 +9,7 @@ namespace IntegrationApi.Policy.Handlers
 {
     public class AdminPolicyHandler : AuthorizationHandler<AdminPolicyRequirement>
     {
-        const string GoogleEmailAddressSchema =
-        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress";
+        const string GoogleEmailAddressSchema ="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress";
         protected override Task HandleRequirementAsync(
         AuthorizationHandlerContext context,
         AdminPolicyRequirement requirement)
