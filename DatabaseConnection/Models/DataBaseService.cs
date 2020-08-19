@@ -54,7 +54,7 @@ namespace IntegrationApi.Models
             string path = @"..\DziennikBaltycki\bin\Debug\netcoreapp3.1\Dziennik Bałtycki";
             string path2 = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), path));
             string[] files = Directory.GetFiles(path2);
-            return $"{path}{files[1].Split("Dziennik Bałtycki")[1]}";
+            return $"{path}{files[0].Split("Dziennik Bałtycki")[1]}";
         }
         public void WriteLogs(string value)
         {
