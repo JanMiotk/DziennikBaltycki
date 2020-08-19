@@ -1,6 +1,5 @@
 ﻿using IntegrationApi.Policy.Models;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,12 +15,11 @@ namespace IntegrationApi.Policy.Handlers
         AuthorizationHandlerContext context,
         AdminPolicyRequirement requirement)
         {
-          var email = context.User.Claims.FirstOrDefault(p =>p.Issuer.Equals("Google") && p.Type.Equals(GoogleEmailAddressSchema));
+            var email = context.User.Claims.FirstOrDefault(p =>p.Issuer.Equals("Google") && p.Type.Equals(GoogleEmailAddressSchema));
 
             if (email != null && email.Value.Equals("student.jan.miotk@gmail.com"))
                 context.Succeed(requirement);
             return Task.CompletedTask;
         }
     }
-
 }
