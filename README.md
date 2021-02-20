@@ -4,9 +4,9 @@
 
 It is necessary to instal all requirement libraries 
 
-Download a couple of files using Dzieniki Bałtycki
+Download a couple of files using Dziennik Bałtycki
 
-You should create your own database from SQL Server and change appsettings.json
+You should create your own database in SQL Server and change appsettings.json
 ```
 "ConnectionStrings": {
     "Sql": "Data Source =.\\SQLEXPRESS; Initial Catalog = catalog; Integrated Security = True"
