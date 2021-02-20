@@ -6,8 +6,6 @@ Used technologies: c#, .net core, postman
 
 It is necessary to instal all requirement libraries 
 
-Download a couple of files using Dziennik Bałtycki
-
 You should create your own database in SQL Server and change appsettings.json
 
 ```
