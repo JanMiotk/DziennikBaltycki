@@ -1,5 +1,7 @@
 # DziennikBaltycki
 
+Used technologies: c#, .net core, postman
+
 ## Need to
 
 It is necessary to instal all requirement libraries 
