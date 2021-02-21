@@ -2,7 +2,7 @@
 
 Used technologies: c#, .net core, postman
 
-## Need to
+## Need to do
 
 It is necessary to instal all requirement libraries 
 
